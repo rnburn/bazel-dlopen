@@ -17,3 +17,10 @@ cc_test(
     visibility = ["//visibility:public"],
     data = ["//:a"],
 )
+
+cc_test(
+    name = "link_test",
+    srcs = ["link_test.cpp"],
+    visibility = ["//visibility:public"],
+    deps = ["//:a"],
+)
