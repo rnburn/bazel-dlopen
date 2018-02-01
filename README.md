@@ -1,4 +1,4 @@
-Sets up a minimal example to demonstrate setting up bazel to run a test with `dlopen`. If you run
+Sets up a minimal example to demonstrate using bazel with a `dlopen` test. If you run
 
 ```
 bazel test //...
